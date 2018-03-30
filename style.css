@@ -11,26 +11,12 @@ body {
 }
 
 .draggable {
-  position: absolute;
-  margin-top: 50px;
-  margin-left: 100px;
-  color: #000;
-/*  cursor: pointer;*/
-  background-color: #d0b8d8;
-  opacity: 0.7;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 2px #000 solid;
-}
-
-.draggable p {
 	margin-top: 40px;
 	margin-left: 2px;
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
-
+	color: #fff;
 }
 
 #calculator {

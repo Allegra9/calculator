@@ -4,14 +4,23 @@ $(document).ready(function() {
   $("#switch").off("click").on("click", function(){
   $("#calculator").css({"transform":"rotate(0deg)"});
   $("#switch").fadeOut("slow");
-  $("#calculator").css({"margin-top":"100px"});
+  $("#calculator").css({"margin-top":"120px"});
   });
 
 $(function(){
   $("#calculator").draggable();
 });
 
-
+$('.draggable').each(function() {
+    var elem = $(this);
+    elem.fadeOut(1000)
+        .fadeIn(500)
+        .fadeOut(500)
+        .fadeIn(500)
+        .fadeOut(500)
+        .fadeIn(700)
+        .fadeOut(4000)
+});
 
   var entry = '';
   var ans = '';
