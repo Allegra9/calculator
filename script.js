@@ -11,7 +11,7 @@ $(function(){
   $("#calculator").draggable();
 });
 
-$('.draggable').each(function() {
+$(".draggable").each(function() {
     var elem = $(this);
     elem.fadeOut(1000)
         .fadeIn(500)
