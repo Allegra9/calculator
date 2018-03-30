@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+<title>Calculator</title>
+    
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    
+<!--Style sheet -->
+<link href="style.css" rel="stylesheet" type="text/css">
+    
+<!--1.LINK FOR BOOTSTRAP--> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+<!--2.LINK FOR ICONS-->   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+<div id="switch" class="text-center">Switch</div>
+
+<div class="draggable"><p>I'm draggable!</p></div>
+
+<div class="container">
+  <div id="calculator" class="ui-widget-content">
+
+<!-- TITLE -->
+    <div id="title" class="text-center">
+      <h5><b>CALCULATOR-X</b></h5>
+    </div>
+
+<!-- ENTRY BOX -->
+    <div id="entrybox" class="text-right">
+      <div id="entry">
+        <p id="answer">0</p>
+      </div>
+      <div id="history">
+        <p>0</p>
+      </div>
+    </div>
+
+<!-- BUTTONS -->
+    <div id="buttons">
+
+      <button class="red" value="ac">AC</button>
+      <button class="red" value="ce">CE</button>
+      <button value='/'>&divide;</button>
+      <button value='*'>x</button>
+
+      <button value='7'>7</button>
+      <button value='8'>8</button>
+      <button value='9'>9</button>
+      <button value='-'>-</button>
+
+      <button value='4'>4</button>
+      <button value='5'>5</button>
+      <button value='6'>6</button>
+      <button value='+'>+</button>
+
+
+      <button value='1'>1</button>
+      <button value='2'>2</button>
+      <button value='3'>3</button>
+      <button class="invisible">N</button>
+
+      <button id="zeroButton" value='0'>0</button>
+      <button value='.'>.</button>
+      <button id="equalButton" value='='>=</button>
+    </div>
+<!-- end buttons -->
+</div>
+<!-- end calculator -->
+</div>
+<!-- end container -->
+
+<footer id="footer" class="text-center">
+  <div class="container">
+    <p>Designed by 
+      <a href="https://github.com/Allegra9" target="_blank">
+        Allegra</a></p>
+    <p>picture by 
+      <a href="https://unsplash.com/@mikeshkaos" target="_blank">@mikeshkaos</a></p>
+  </div>
+</footer>
+
+<!--SCRIPT LINKS END OF BODY-->  
+    
+<!--4.jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- for draggable: -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+<!--5.this one for TETHER.IO-->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    
+<!--6.JS for BOOTSTRAP-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>
